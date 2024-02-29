@@ -11,6 +11,7 @@ for dir in ${cloud_dirs[@]}
 do
 	ln -s $dir $usr_dir/
 done
+
 if [[ -d $syno_dir ]]; then
 	ln -s $syno_dir $usr_dir
 fi
