@@ -26,10 +26,14 @@ do
 			speed=$max_speed
 		;;
 		--install )
-			sudo ln -s $0 /usr/local/bin/set-fanspeed.sh
+			sudo ln -s $0 /usr/local/bin/
 		;;
 		--install-alias )
 			sudo ln -s $0 /usr/local/bin/fanspeed.sh
+			sudo ln -s $0 /usr/local/bin/fanspeed-set.sh
+			sudo ln -s $0 /usr/local/bin/fanspeed-set
+			sudo ln -s $0 /usr/local/bin/set-fanspeed
+			sudo ln -s $0 /usr/local/bin/fanspeed
 		;;
 		--download-smc )
 			# https://brew.sh/
